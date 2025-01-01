@@ -1,7 +1,7 @@
 #!/bin/sh
 # pass2passwords.sh
 # Licensed under the GNU General Public License version 3.
-# Copyright(c) 2024 Jacob Nilsson
+# Copyright (C) 2024 Jacob Nilsson
 # https://jacobnilsson.com
 
 printf "%s\n" "Title,URL,Username,Password,Notes,OTPAuth" > pass2passwords_output.csv || exit 1
